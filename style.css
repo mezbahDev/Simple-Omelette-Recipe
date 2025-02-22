@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+:root{
+--White: hsl(0, 0%, 100%);
+--Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--Stone-900: hsl(24, 5%, 18%);
+--Brown-800: hsl(14, 45%, 36%);
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 375px;
+    background: var(--Stone-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 600px;
+    background-color: var(--White);
+    margin: 5rem auto;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    text-align: left;
+}
+
+.container img{
+    display: block;
+    margin: 1rem 0;
+    width: 550px;
+    border-radius: 1rem;
+}
+
+.simple h1{
+    font-family: "young serif";
+    font-size: 33px;
+    font-weight: 300;
+}
+
+.simple p{
+    font-family: 'Outfit';
+    font-size: 13px;
+    padding: 20px 0;
+    font-weight: 300;;
+}
+
+
+.preparation{
+    background-color: var(--Rose-50);
+    padding: 15px;
+    font-family: 'Outfit';
+    border-radius: 1rem;
+}
+
+.preparation p{
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: var(--Rose-800);
+}
+
+.preparation ul{
+    padding-left: 19px;
+}
+
+.preparation li{
+    font-size: 13px;
+    padding-left: 25px;
+    font-weight: 300;
+    padding: 0.3rem 0;
+}
+
+.preparation li::marker{
+    margin-right: 100px;
+    font-weight: 800;
+    color: var(--Rose-800);
+}
+
+.preparation li span{
+    font-weight: 600;
+}
+
+.ingredients{
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.ingredients h1{
+    color: var(--Brown-800);
+    font-family: "young serif";
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ingredients ul{
+    padding-left: 19px;
+    font-family: 'Outfit';
+    margin-bottom: 1rem;
+}
+
+.ingredients li{
+    font-size: 13px;
+    padding-left: 18px;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.ingredients li::marker{
+    margin-right: 800px;
+    font-weight: 800;
+    color: var(--Rose-800);
+}
+
+.instructions{
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.instructions h1{
+    color: var(--Brown-800);
+    font-family: "young serif";
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.instructions ol{
+    padding-left: 20px;
+    margin-bottom: 1rem;
+    
+}
+
+.instructions li{
+    font-family: 'Outfit';
+    font-size: 13.5px;
+    padding-left: 18px;
+    font-weight: 300;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.instructions li::marker{
+    margin-right: 800px;
+    font-weight: 700;
+    color: var(--Rose-800);
+}
+
+.instructions li span{
+    font-weight: 600;
+}
+
+.nutritions h1{
+    color: var(--Brown-800);
+    font-family: "young serif";
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nutritions p{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+table {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse; 
+    font-family: "outfit";
+    margin-bottom: 2rem;
+}
+
+td {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    text-align: left; 
+    font-size: 14px;
+    padding-left: 1.5rem;
+    
+}
+
+td:first-child{
+    font-weight: 400
+}
+
+td:nth-child(2) { 
+    color: var(--Rose-800);
+    font-weight: 700
+}
+
+tr:last-child td {
+    border-bottom: none; 
+    
+}
+
+.attribution{
+    padding: 10rem;
+    font-size: 20px;
+}
